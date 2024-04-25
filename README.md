@@ -5,20 +5,20 @@ Pass.in é uma aplicação para gestão de participantes em eventos presenciais.
 # Requisitos
 
 ## Requisitos Funcionais
- - O organizador deve poder cadastrar um novo evento.
- - O organizador deve poder visualizar dados de um evento.
- O organizador deve poder visualizar a lista de participantes.
- O organizador deve poder se inscrever em um evento.
- O organizador deve poder visualizar seu crachá de inscrição.
- O organizador deve poder realizar check-in no evento.
+- [ ✔ ] O organizador deve poder cadastrar um novo evento;
+- [ ✔ ] O organizador deve poder visualizar dados de um evento;
+- [ ✔ ] O organizador deve poder visualizar a lista de participantes;
+- [ ✔ ] O organizador deve poder se inscrever em um evento;
+- [ ✔ ] O organizador deve poder visualizar seu crachá de inscrição;
+- [ ✔ ] O organizador deve poder realizar check-in no evento;
  
 ## Regras de Negócio
- O participante só pode se inscrever em um evento uma única vez.
- O participante só pode se inscrever em eventos com vagas disponíveis.
- O participante só pode realizar check-in em um evento uma única vez.
+- [ ✔ ] O participante só pode se inscrever em um evento uma única vez;
+- [ ✔ ] O participante só pode se inscrever em eventos com vagas disponíveis;
+- [ ✔ ] O participante só pode realizar check-in em um evento uma única vez;
  
 ##Requisitos Não-Funcionais##
- O check-in no evento será realizado através de um QRCode.
+- [ ✔ ] O check-in no evento será realizado através de um QRCode;
  
 #Comandos de Execução#
 
