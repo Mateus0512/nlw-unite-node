@@ -1,0 +1,31 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "Novo Evento 2",
+    "details" : null,
+    "maximumAttendees":1
+}
+
+
+###
+POST http://localhost:3333/events/abe60b56-44ba-47d7-a49f-bb17d25c1d7d/attendees
+Content-Type: application/json
+
+{
+    "name":"mateus",
+    "email":"mateus@gmail.com"
+    
+}
+
+###
+GET http://localhost:3333/events/abe60b56-44ba-47d7-a49f-bb17d25c1d7d
+
+###
+GET http://localhost:3333/attendees/2/badge
+
+###
+GET http://localhost:3333/attendees/2/check_in
+
+###
+GET http://localhost:3333/events/9e9bd979-9d10-4915-b339-3786b1634f33/attendees
