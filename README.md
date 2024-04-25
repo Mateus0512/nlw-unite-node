@@ -4,7 +4,7 @@ Pass.in é uma aplicação para gestão de participantes em eventos presenciais.
 
 # Requisitos
 
-## Requisitos Funcionais##
+## Requisitos Funcionais
  O organizador deve poder cadastrar um novo evento.
  O organizador deve poder visualizar dados de um evento.
  O organizador deve poder visualizar a lista de participantes.
@@ -34,5 +34,5 @@ npm run dev
 Executar migrations
 npm run db:migrate
 
-##Executar o Prisma Studio
+## Executar o Prisma Studio
 npm run db:studio
